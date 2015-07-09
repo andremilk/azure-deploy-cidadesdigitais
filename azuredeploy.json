@@ -28,7 +28,7 @@
         },
         "customData" : {
             "type" : "string",
-            "allowedValues": ["https://raw.githubusercontent.com/dekozo/azure-deploy-cidadesdigitais/master/urbem/instalador.sh"],
+            "allowedValues": ["urbem", "ecidades"],
             "metadata": {
                  "description": "Link on github for raw format of script."
              }
@@ -203,7 +203,7 @@
             "typeHandlerVersion": "1.2",
             "settings": {
                 "fileUris": [
-                    "[parameters('customData')]"
+                    "[parameters(concat('https://raw.githubusercontent.com/dekozo/azure-deploy-cidadesdigitais/master', parameters('customData'), 'instalador.sh'))]"
                 ],
                 "commandToExecute": "[concat('sh', ' instalador.sh')]"
             }
