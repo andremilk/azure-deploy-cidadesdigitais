@@ -1,0 +1,26 @@
+﻿{
+    "newStorageAccountName" : {
+        "value":""
+    },
+    "adminUsername": {
+        "value": ""
+    },
+    "adminPassword": {
+        "value": ""
+    },
+    "customData" : {
+        "value": "https://raw.githubusercontent.com/dekozo/azure-deploy-cidadesdigitais/master/urbem/instalador.sh"
+    },
+    "dnsNameForPublicIP": {
+        "value": ""
+    },
+    "location": {
+        "value": "West US"
+    },
+    "vmSize": {
+        "value": "Standard_A0"
+    },
+    "ubuntuOSVersion" : {
+        "value" : "12.04.5-LTS"
+    }
+}
