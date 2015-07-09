@@ -28,7 +28,7 @@
         },
         "customData" : {
             "type" : "string",
-            "allowedValues": ["urbem", "ecidades"],
+            "allowedValues": ["urbem", "ecidade"],
             "metadata": {
                  "description": "Link on github for raw format of script."
              }
