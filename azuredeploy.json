@@ -203,7 +203,7 @@
             "typeHandlerVersion": "1.2",
             "settings": {
                 "fileUris": [
-                    "[parameters(concat('https://raw.githubusercontent.com/dekozo/azure-deploy-cidadesdigitais/master', parameters('customData'), 'instalador.sh'))]"
+                    "[parameters(concat('https://raw.githubusercontent.com/dekozo/azure-deploy-cidadesdigitais/master', parameters('customData'), '/instalador.sh'))]"
                 ],
                 "commandToExecute": "[concat('sh', ' instalador.sh')]"
             }
