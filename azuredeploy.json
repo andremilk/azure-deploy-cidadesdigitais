@@ -43,7 +43,7 @@
         "vmSize": {
             "type": "string",
             "defaultValue": "Standard_D1",
-            "allowedValues": ["Standard_D1", "Standard_D2", "Standard_D3", "Standard_DS1", "Standard_SD2", "Standard_DS3", "A1\small", "A2\medium"]
+            "allowedValues": ["Standard_D1", "Standard_D2", "Standard_D3", "Standard_DS1", "Standard_SD2", "Standard_DS3"]
             "metadata": {
                  "description": "VM size"
              }
